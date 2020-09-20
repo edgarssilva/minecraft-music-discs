@@ -73,7 +73,7 @@ As you can see there some files that need to be created, I will explain each one
 Let's start by the **pack.png** file, this needs to be a *256x256* image of you pack. 
 
 <p align="center">
-	<img src="https://lh3.googleusercontent.com/f6asStlNvrNZ0e4cqu5zbhnZ_u0WTTdWxfF9O29BQuOFXZmwPAg7T04CJ3Bp64p0SWCU7Osmn7I"   />
+	<img src="https://i.ibb.co/pKmTcp3/pack.jpg"   />
 	<br>Minecraft Default Pack
 </p>
 
@@ -85,7 +85,7 @@ The **pack.mcmeta** is just a **.json** file with some basic information about t
 {
 	"pack": {
 		 "pack_format": 6,
-	     "description": "Your Custom Pack Description"
+	     	"description": "Your Custom Pack Description"
 	  }
 }
 ```
