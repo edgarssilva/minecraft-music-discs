@@ -103,20 +103,20 @@ This is the most important file since it's the one that says where each music fi
 
 ```
 {
-	"noma.brainpower": {
+	  "noma.brainpower": {
 		"sounds": [
 			{
-		       "name": "records/brainpower",
-		       "stream": true
-		     }
+			  "name": "records/brainpower",
+			  "stream": true
+			 }
 		]
 	},
 	"artist.songname": {
 		"sounds": [
 			{
-		       "name": "records/your_song",
-		       "stream": true
-		     }
+				"name": "records/your_song",
+				 "stream": true
+			}
 		]
 	}
 }
@@ -186,7 +186,7 @@ Then you have some simple properties like the *author*,  *model-data*, *creeper-
 
 So following the example above you would have to do something like this:
 ```
-	"BrainPower":
+"BrainPower":
       namespace: "noma.brainpower"
       author: "noma"
       model-data: 0
