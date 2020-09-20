@@ -1,0 +1,10 @@
+{
+    "noma.brainpower": {
+    "sounds": [
+      {
+        "name": "records/brainpower",
+        "stream": true
+      }
+    ]
+  }
+}

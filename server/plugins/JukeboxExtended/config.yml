@@ -1,0 +1,39 @@
+jext:
+  # Kick players who decline server resource pack
+  force-resource-pack: true
+
+  # Kick message for rejecting server resource pack
+  resource-pack-decline-kick-message: "Please enable resource pack for the music!"
+
+  # Ignore if player somehow failed downloading the resource pack
+  ignore-failed-download: false
+
+  # Kick message for player who failed downloading the resource pack
+  failed-download-kick-message: "Resource pack download failed, please re-join to try again."
+
+  # Allow/Disallow overlapping music (two jukebox playing same music together)
+  allow-music-overlapping: false
+
+  # Register your discs here
+  disc:
+    "BrainPower":
+      namespace: "noma.brainpower"
+      author: "noma"
+      model-data: 0
+      creeper-drop: true
+      lore:
+        - "A cool song that gives power to your brain"
+    "Cat":
+      namespace: "music_disc.cat"
+      author: "C148"
+      model-data: 0
+      creeper-drop: true
+      lore:
+        - "Minecraft originals"
+    "Stal":
+      namespace: "music_disc.stal"
+      author: "C148"
+      model-data: 0
+      creeper-drop: true
+      lore:
+        - "Minecraft originals"
