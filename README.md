@@ -23,7 +23,7 @@ Now to run the server you need to create a **run.bat** file with the following c
 	java -jar server.jar -nogui
 	pause
 ```
-In this case we used **server.jar** you need to rename it to whatever you renamed the file before.
+In this case we used **server.jar**, you will need to rename it to whatever you renamed the file before.
 
 Now just run the file.
 
@@ -31,15 +31,15 @@ Now just run the file.
 
 After you run the server it will close itself because you need to accept the EULA, to do that open the eula.txt file and change the *eula=false* to *eula=true*.
 
-Now you can run the server again it setup the world and everything else.
+Now you can run the server again, it will setup the world and everything else.
 
 ## Adding Plugins
 
-At this point, you have a fully working vannila Minecraft Server so feel free to change the **server.yml** file and others as wish.
+At this point, you have a fully working vannila Minecraft Server so feel free to change the **server.yml** file and others as you wish.
 
 But to add the juicy stuff you will want to download some plugins, for the custom music discs we will use one called [Jukebox Extended](https://www.spigotmc.org/resources/jukebox-extended-add-custom-music-disc.76963/) feel free to check it out.
 
-To setup the plugin you need to go into it's website and download it as aswell as it's dependency [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/).
+To setup the plugin you need to go onto its website and download it aswell as it's dependency [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/).
 >**Note:** This will already be setup for you but if you wanna update or setup new plugins this is the way to do it.
 
 After that move the plugins into the **plugins** folder and run the server.
