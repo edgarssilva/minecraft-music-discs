@@ -115,7 +115,7 @@ This is the most important file since it's the one that says where each music fi
 		"sounds": [
 			{
 				"name": "records/your_song",
-				 "stream": true
+				"stream": true
 			}
 		]
 	}
