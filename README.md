@@ -19,7 +19,7 @@ Setup a folder for the server and move the jar there and rename it to a simpler 
 ## Create a bat file
 
 Now to run the server you need to create a **run.bat** file with the following content:
-```
+```batch
 	java -jar server.jar -nogui
 	pause
 ```
@@ -81,7 +81,7 @@ Let's start by the **pack.png** file, this needs to be a *256x256* image of you 
 
 The **pack.mcmeta** is just a **.json** file with some basic information about the pack, so create the file with the following:
 
-```
+```json
 {
 	"pack": {
 		 "pack_format": 6,
@@ -101,7 +101,7 @@ Once you got your **.ogg** files drop them in the corrent folder shown above.
 ## Sounds.json
 This is the most important file since it's the one that says where each music file is and what it's called. On this example I will use a portion of the song **Brain Power** and a "blank" example.
 
-```
+```json
 {
 	  "noma.brainpower": {
 		"sounds": [
@@ -145,7 +145,7 @@ Once you do that you can go to your **server.yml** file  and find the line with 
 After you guys everything setup and the plugins on the right folder all that it's left to do is add the new sounds to the plugin, and maybe configure some settings.
 
 To do that open the **plugins** folder then the **JukeboxExtended** in there you will see a file called **config.yml**, it will look something like this:
-```
+```yaml
 jext:
   # Kick players who decline server resource pack
   force-resource-pack: true
@@ -185,7 +185,7 @@ The first property is the *name* of the disc, the *namespace* is the important p
 Then you have some simple properties like the *author*,  *model-data*, *creeper-drop* and *lore* that is basicly a description of an item in Minecraft. The only weird one here is the *model-data* that is basicly a property to change the icon of the disc if you do wish to change the icon read [this](https://github.com/Tajam/jext-spigot-plugin/wiki/4.-Configuration-Guide#custom-model-data) (by default its the broken disc).
 
 So following the example above you would have to do something like this:
-```
+```yaml
 "BrainPower":
       namespace: "noma.brainpower"
       author: "noma"
